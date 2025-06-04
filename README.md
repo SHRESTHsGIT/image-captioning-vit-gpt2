@@ -1,35 +1,40 @@
-# image-captioning-vit-gpt2
-##vision-to-text
-vision-to-text is an image captioning project that combines the visual understanding power of Vision Transformers (ViT) with the language generation capabilities of GPT-2. This model generates accurate and fluent captions for images using the Flickr8k dataset, which consists of 8,000 images each paired with five human-written captions.
+# 🖼️ image-captioning-vit-gpt2
 
-#🚀 Key Features
-ViT Encoder: Extracts rich visual embeddings from input images.
+## ✨ vision-to-text
 
-GPT-2 Decoder: Converts visual features into descriptive natural language captions.
+**vision-to-text** is an image captioning project that combines the visual understanding capabilities of **Vision Transformers (ViT)** with the language generation power of **GPT-2**.  
+This model is trained on the **Flickr8k dataset**, which contains 8,000 images, each paired with five human-annotated captions. It generates fluent and contextually accurate descriptions of input images.
 
-Flickr8k Dataset: Trained and evaluated on a well-annotated, compact dataset ideal for rapid experimentation.
+---
 
-End-to-End Pipeline: Seamlessly integrates image preprocessing, feature extraction, and text generation.
+## 🚀 Key Features
 
-Evaluation Tools: Includes standard metrics BLEU.
+- **ViT Encoder**: Extracts rich visual embeddings from input images.
+- **GPT-2 Decoder**: Translates visual features into fluent natural language captions.
+- **Flickr8k Dataset**: Compact, well-annotated dataset ideal for experimentation and benchmarking.
+- **End-to-End Pipeline**: Fully integrated flow for preprocessing, encoding, decoding, and evaluation.
+- **Evaluation Tools**: Supports standard NLP metrics such as **BLEU**, with options to integrate **ROUGE** and **CIDEr**.
 
-#📦 Tech Stack
-Python & PyTorch
+---
 
-Hugging Face Transformers
+## 📦 Tech Stack
 
-Vision Transformer (ViT)
+- 🐍 Python & PyTorch  
+- 🤗 Hugging Face Transformers  
+- 🔍 Vision Transformer (ViT)  
+- 🧠 GPT-2 Language Model  
+- 🖼️ Flickr8k Dataset  
 
-GPT-2 Language Model
+---
 
-Flickr8k Dataset
+## 📁 Use Cases
 
-#📁 Use Cases
-Assisting visually impaired users through image descriptions
+- ♿ Describing visual content for the visually impaired
+- 📸 Auto-captioning for social media, photography platforms
+- 🔍 Improving image search and indexing systems
+- 🤖 Foundation for multimodal AI applications (e.g., VQA, storytelling)
 
-Automated captioning for social media or content platforms
+---
 
-Enhancing image search and indexing
-
-Building blocks for multimodal AI applications
-
+Feel free to contribute, fork, or explore improvements.  
+Let's bridge vision and language! 🌉🧠
